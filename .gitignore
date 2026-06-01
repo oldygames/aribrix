@@ -1,2 +1,3 @@
-*.bin/
-*_html/
+/*.p8.png
+/*.bin/
+/*_html/
