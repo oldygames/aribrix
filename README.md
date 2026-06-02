@@ -13,11 +13,11 @@ https://oldygames.com/aribrix
 - [macOS](https://github.com/oldygames/aribrix/releases/latest/download/aribrix_osx.zip)
 - [Raspberry Pi](https://github.com/oldygames/aribrix/releases/latest/download/aribrix_raspi.zip)
 
-- [SHA-256 checksums and VirusTotal reports](https://github.com/oldygames/aribrix/releases/latest)
+[SHA-256 checksums and VirusTotal reports](https://github.com/oldygames/aribrix/releases/latest)
 
 ## How to Play
 
-See the in-game instructions (MENU -> HOW TO PLAY).
+See the in-game instructions: MENU >> HOW TO PLAY
 
 ## License
 
