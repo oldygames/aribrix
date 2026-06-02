@@ -32,14 +32,14 @@ function wo.ins(d,e,x)
 		local i=(l+r)\2
 		local v=a[i]
 		local vx=i==v[i1] and v[c1]
-		                   or	v[c2]
+		                   or v[c2]
 		if x<vx then r=i-1
 		        else l=i+1	end
 	end
 	for i=l,#a do
 		local v=a[i]
 		if i==v[i1] then v[t1]=i+1
-														else v[t2]=i+1
+		            else v[t2]=i+1
 		end
 	end
 	add(a,e,l)

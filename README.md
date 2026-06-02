@@ -1,6 +1,6 @@
 # ARIBRIX
 
-A multiplication table trainer for children, created with [PICO-8](https://www.lexaloffle.com/pico-8.php). The game may be fun for adults too.
+A multiplication table game and trainer, created with [PICO-8](https://www.lexaloffle.com/pico-8.php).
 
 ## Play online
 
@@ -21,6 +21,6 @@ See the in-game instructions: MENU >> HOW TO PLAY
 
 ## License
 
-Released under the MIT License. See [LICENSE](./LICENSE) for details.
+[MIT License](./LICENSE)
 
-Copyright 2026 [oldygames](https://github.com/oldygames)
+Copyright (c) 2026 [oldygames](https://github.com/oldygames)
