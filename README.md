@@ -19,6 +19,11 @@ https://oldygames.com/aribrix
 
 See the in-game instructions: MENU >> HOW TO PLAY
 
+## Versioning
+
+Version format: `vN.M`, where `N` is the [LIBWO](https://github.com/oldygames/libwo) version in use and `M` is a sequentially increasing integer.
+For each new `N`, `M` starts at `0`. Examples: `v1.0`, `v1.1`, `v2.0`.
+
 ## License
 
 [MIT License](./LICENSE)
