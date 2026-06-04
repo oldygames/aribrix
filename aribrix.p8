@@ -1141,7 +1141,9 @@ local function mtch()
 end
 
 local function bdg(m)
-	if m.g~=0 then m.g-=1 end
+	local g=m.g
+	if g~=0 and g~=0x7fff then
+		m.g-=1 end
 end
 
 local function bird()
