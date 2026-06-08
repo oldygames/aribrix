@@ -1190,7 +1190,8 @@ end
 
 local function slv()
 	music(-1)
-	lv,bs,hd,ov=dget(0),dget(1)
+	swpb.c,lv,bs,hd,ov=0,dget(0),
+	                     dget(1)
 	bc,bp,tm=0,5400*(lv/9)\1,{}
 	for i=1,lv do
 		for j=1,lv do
