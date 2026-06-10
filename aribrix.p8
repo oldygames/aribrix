@@ -1158,7 +1158,7 @@ local function bird()
 	bc+=1
 end
 -->8
-local hd,hs,hn,dbg
+local hd,hs,hn
 
 local function nbs(bs)
 	if bs==0 then bs=3 end
@@ -1450,8 +1450,6 @@ local function _update()
 		if btn(3) then
 			wo.v(2,p,8) end
 	end
-	if btnp(4) and btnp(5) then
-		dbg=not dbg end
 	mtch()
 	bird()
 	wo.all("dg",0x8)
@@ -1460,27 +1458,12 @@ local function _update()
 	chlv()
 end
 
-local function pdbg()
-	local a=wo[3]
-	for i=1,#a do
-		?i.." "..#a[i],0,i*7-7,8
-	end
-	for i=1,#ba do
-		?ba[i].g,109,i*7-7,8
-	end
-	for i=1,#mp do
-		local j=i-1
-		?mp[i].." ",11+j%10*11,56+j\10*6,8
-	end
-end
-
 local function _draw()
 	cls()
 	if hd then hd() return end
 	map()
 	wo.all("dr")
 	if ov then ov() end
-	if dbg then pdbg() end
 end
 __gfx__
 0000000000f4f444f44f4440c0c00000000044000000000033333333333333333333333355555555333333335555555533555533666666667777ff44ff444477
