@@ -1,0 +1,2 @@
+<title>ARIBRIX</title>
+<link rel="icon" href="favicon.ico">
